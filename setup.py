@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='module-config',
+    name='module_config',
     version='0.0.1',
     author='Pablo Vergara',
     author_email='vergarapablo2001@gmail.com',
