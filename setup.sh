@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# TODO
 # chmod +x ./setup.sh
 # ./setup.sh
 
@@ -10,6 +12,9 @@ source venv/bin/activate
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
+
+# Install pre-commit hooks
+pre-commit install
 
 # Keep the terminal open (optional)
 echo "The virtual environment has been created and dependencies installed. Use 'source venv/bin/activate' to activate the environment."
