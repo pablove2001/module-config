@@ -12,7 +12,7 @@ class ModuleConfig:
         """Load a configuration file."""
         if not os.path.exists(config_path):
             raise FileNotFoundError(f"Config file not found: {config_path}")
-        
+
         _, ext = os.path.splitext(config_path.lower())
         with open(config_path, 'r') as file:
             if ext == '.json':

@@ -8,7 +8,7 @@
 
 ## Documentation Improvements
 
--   [ ]
+-   [ ] Split README.md into two different files, one for GitHub and one for Pypi
 
 ## Other Tasks
 
